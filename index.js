@@ -17,7 +17,10 @@ app.put((url = "/three"), function (req, res) {
   res.end("From Put Method");
 });
 
-// app.patch();
+//Patch Method
+app.patch((url = "/four"), function (req, res) {
+  res.end("From Patch Method");
+});
 
 // app.delete();
 
