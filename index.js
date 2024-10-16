@@ -12,7 +12,10 @@ app.post((url = "/two"), function (req, res) {
   res.end("From Post Method");
 });
 
-// app.put();
+//Put Method
+app.put((url = "/three"), function (req, res) {
+  res.end("From Put Method");
+});
 
 // app.patch();
 
