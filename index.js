@@ -7,7 +7,10 @@ app.get((url = "/one"), function (req, res) {
   res.end("From Get Method");
 });
 
-// app.post();
+//POST Method
+app.post((url = "/two"), function (req, res) {
+  res.end("From Post Method");
+});
 
 // app.put();
 
