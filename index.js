@@ -22,7 +22,10 @@ app.patch((url = "/four"), function (req, res) {
   res.end("From Patch Method");
 });
 
-// app.delete();
+// Delete Method
+app.delete((url = "/five"), function (req, res) {
+  res.end("From Delete Method");
+});
 
 app.listen(3000, function () {
   console.log("App is running on port 3000...");
